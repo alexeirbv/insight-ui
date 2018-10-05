@@ -78,8 +78,8 @@ body {
 }
 
 #footer {
-      height: 75px;
-      color: #A0D26A;
+  height: 75px;
+  color: #A0D26A;
 }
 
 #links_container {
@@ -161,7 +161,7 @@ a.email:hover {
 }
 
 .btn-primary:hover {
-      background-color: #cab8e2 !important;
+    background-color: #cab8e2 !important;
     border: 2px solid #ccc !important;
 }
 
