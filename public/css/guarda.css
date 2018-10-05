@@ -1,14 +1,12 @@
 #wrap {
-	min-height: 1240px;
-	height: 100%
-	margin: 0
-	auto: -100px
+	min-height: 1440px;
+	margin: 0	auto: -100px;
 }
 
 @media (max-width: 1000px) {
  	#banner {
 	 position: static !important ;
-   margin-top: 30px !important ;
+   margin-top: 320px !important ;
  	};
 
  	#wrap {
@@ -38,6 +36,9 @@
      margin-left: 0px !important;
   }
 
+	.coin-link {
+ 		float: none !important;
+	}
 }
 
 @font-face {
@@ -77,8 +78,8 @@ body {
 }
 
 #footer {
-  height: 75px;
-  color: #A0D26A;
+      height: 75px;
+      color: #A0D26A;
 }
 
 #links_container {
@@ -160,11 +161,16 @@ a.email:hover {
 }
 
 .btn-primary:hover {
-    background-color: #cab8e2 !important;
+      background-color: #cab8e2 !important;
     border: 2px solid #ccc !important;
 }
 
 ::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color:  #69921e !important ;
     font-family: "Titillium Web", sans-serif !important;
+}
+
+.coin-link {
+    font-size: 13px !important;
+    margin-top: -40px;
 }
