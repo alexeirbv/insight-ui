@@ -1,31 +1,30 @@
 {
-  "_from": "insight-ui",
-  "_id": "insight-ui@0.4.0",
+  "_from": "@dashevo/insight-ui@latest",
+  "_id": "@dashevo/insight-ui@1.1.1",
   "_inBundle": false,
-  "_integrity": "sha1-ie2KjzNlzWjz2UqB/+WW9ORvL44=",
-  "_location": "/insight-ui",
+  "_integrity": "sha512-fGQ2qCI7oylw2lTkrASBQn5EQwqaeSNSm1drnmq1wti4gfwFdln/rbSILbQybqy/SDqB11sis+Ecz8cVGUqKLA==",
+  "_location": "/@dashevo/insight-ui",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "insight-ui",
-    "name": "insight-ui",
-    "escapedName": "insight-ui",
-    "rawSpec": "",
+    "raw": "@dashevo/insight-ui@latest",
+    "name": "@dashevo/insight-ui",
+    "escapedName": "@dashevo%2finsight-ui",
+    "scope": "@dashevo",
+    "rawSpec": "latest",
     "saveSpec": null,
     "fetchSpec": "latest"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/insight-ui/-/insight-ui-0.4.0.tgz",
-  "_shasum": "89ed8a8f3365cd68f3d94a81ffe596f4e46f2f8e",
-  "_spec": "insight-ui",
-  "_where": "/home/bitcoin/insight",
-  "bitcoreNode": "bitcore-node",
+  "_resolved": "https://registry.npmjs.org/@dashevo/insight-ui/-/insight-ui-1.1.1.tgz",
+  "_shasum": "9bf01db22a133b287aa06510c188dd81a1b8655e",
+  "_spec": "@dashevo/insight-ui@latest",
+  "_where": "/home/dash/insight",
   "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+    "url": "https://github.com/dashevo/insight-ui/issues"
   },
   "bundleDependencies": false,
   "contributors": [
@@ -50,13 +49,10 @@
       "email": "bechilandia@gmail.com"
     }
   ],
-  "dependencies": {
-    "connect": "^3.6.6",
-    "http-server": "^0.11.1",
-    "serve-static": "^1.13.2"
-  },
+  "dashcoreNode": "dashcore-node",
+  "dependencies": {},
   "deprecated": false,
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Dash network and build your own services with it.",
   "devDependencies": {
     "bower": "~1.2.8",
     "grunt": "~0.4.2",
@@ -70,20 +66,27 @@
     "grunt-macreload": "*",
     "grunt-markdown": "~0.5.0"
   },
-  "homepage": "https://github.com/bitpay/insight-ui",
+  "homepage": "https://github.com/dashevo/insight-ui",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
-    "bitcore",
-    "front-end"
+    "dash",
+    "bitcore-dash",
+    "front-end",
+    "dashcore"
   ],
   "license": "MIT",
-  "name": "insight-ui",
+  "name": "@dashevo/insight-ui",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bitpay/insight-ui.git"
+    "url": "git://github.com/dashevo/insight-ui.git"
   },
-  "version": "0.4.0"
+  "scripts": {
+    "build": "bower install && grunt compile",
+    "install-and-build": "npm install && npm run build",
+    "test": "mocha test",
+    "watch": "grunt"
+  },
+  "version": "1.1.1"
 }

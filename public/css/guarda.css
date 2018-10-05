@@ -96,8 +96,8 @@ body {
 }
 
 #gecko_widget {
-    margin-top: 104px;
-    margin-left: -10px;
+  margin-top: 104px;
+  margin-left: -10px;
 }
 
 #banner {
@@ -160,11 +160,11 @@ a.email:hover {
 }
 
 .btn-primary:hover {
-    background-color: #cab8e2 !important;
-    border: 2px solid #ccc !important;
+	background-color: #cab8e2 !important;
+  border: 2px solid #ccc !important;
 }
 
 ::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:  #69921e !important ;
-    font-family: "Titillium Web", sans-serif !important;
+  color:  #69921e !important ;
+  font-family: "Titillium Web", sans-serif !important;
 }

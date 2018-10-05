@@ -1,13 +1,13 @@
 'use strict';
 
 angular.module('insight.system').controller('HeaderController',
-  function($scope, $rootScope, $modal, getSocket, Global, Block) {
+  function($scope, $rootScope, $uibModal, getSocket, Global, Block) {
     $scope.global = Global;
 
     $rootScope.currency = {
       factor: 1,
       bitstamp: 0,
-      symbol: 'BTC'
+      symbol: 'DASH'
     };
 
     $scope.menu = [{
@@ -19,7 +19,7 @@ angular.module('insight.system').controller('HeaderController',
     }];
 
     $scope.openScannerModal = function() {
-      var modalInstance = $modal.open({
+      var modalInstance = $uibModal.open({
         templateUrl: 'scannerModal.html',
         controller: 'ScannerController'
       });
