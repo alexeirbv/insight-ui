@@ -1,24 +1,24 @@
 #wrap {
-	min-height: 1240px; 
+	min-height: 1240px;
 	height: 100%
-	margin: 0 
+	margin: 0
 	auto: -100px
 }
 
-@media (max-width: 1000px) { 
+@media (max-width: 1000px) {
  	#banner {
 	 position: static !important ;
    margin-top: 30px !important ;
  	};
 
  	#wrap {
- 	    margin: 0 auto -100px; 
+ 	    margin: 0 auto -100px;
   }
-  
+
   .email {
        float: none !important;
   }
-  
+
   #footer {
       height: 125px !important;
    }
@@ -77,8 +77,8 @@ body {
 }
 
 #footer {
-      height: 75px;
-      color: #A0D26A;
+  height: 75px;
+  color: #A0D26A;
 }
 
 #links_container {
@@ -86,8 +86,8 @@ body {
 }
 
 .changenow_banner {
-	display: block; 
-	margin-left: -15px; 
+	display: block;
+	margin-left: -15px;
 	margin-top: 5px;
 }
 
@@ -101,20 +101,20 @@ body {
 }
 
 #banner {
-	border:none; 
+	border:none;
 	position: absolute;
 	margin-top: 560px;
 	margin-left:5px;
 }
 
 .guarda_banner {
-	margin-top: 18px; 
+	margin-top: 18px;
 	margin-left: -8px;
 }
 
 .email {
 	font-weight: normal;
-	font-style: normal; 
+	font-style: normal;
 	font-size: 13px ;
 	margin-top: -46px ;
 	color: #b19fce;
@@ -160,7 +160,7 @@ a.email:hover {
 }
 
 .btn-primary:hover {
-      background-color: #cab8e2 !important;
+    background-color: #cab8e2 !important;
     border: 2px solid #ccc !important;
 }
 
