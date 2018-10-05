@@ -8,5 +8,5 @@ angular.module('insight.system')
   ])
   .factory('Version',
     function($resource) {
-      return $resource(window.apiPrefix + '/version');
+      return $resource('/api/version');
   });

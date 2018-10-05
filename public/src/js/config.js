@@ -4,47 +4,47 @@
 angular.module('insight').config(function($routeProvider) {
   $routeProvider.
     when('/block/:blockHash', {
-      templateUrl: 'views/block.html',
-      title: 'Bitcoin Block '
+      templateUrl: '/views/block.html',
+      title: 'Groestlcoin Block '
     }).
     when('/block-index/:blockHeight', {
       controller: 'BlocksController',
-      templateUrl: 'views/redirect.html'
+      templateUrl: '/views/redirect.html'
     }).
     when('/tx/send', {
-      templateUrl: 'views/transaction_sendraw.html',
+      templateUrl: '/views/transaction_sendraw.html',
       title: 'Broadcast Raw Transaction'
     }).
     when('/tx/:txId/:v_type?/:v_index?', {
-      templateUrl: 'views/transaction.html',
-      title: 'Bitcoin Transaction '
+      templateUrl: '/views/transaction.html',
+      title: 'Groestlcoin Transaction '
     }).
     when('/', {
-      templateUrl: 'views/index.html',
+      templateUrl: '/views/index.html',
       title: 'Home'
     }).
     when('/blocks', {
-      templateUrl: 'views/block_list.html',
-      title: 'Bitcoin Blocks solved Today'
+      templateUrl: '/views/block_list.html',
+      title: 'Groestlcoin Blocks solved Today'
     }).
     when('/blocks-date/:blockDate/:startTimestamp?', {
-      templateUrl: 'views/block_list.html',
-      title: 'Bitcoin Blocks solved '
+      templateUrl: '/views/block_list.html',
+      title: 'Groestlcoin Blocks solved '
     }).
     when('/address/:addrStr', {
-      templateUrl: 'views/address.html',
-      title: 'Bitcoin Address '
+      templateUrl: '/views/address.html',
+      title: 'Groestlcoin Address '
     }).
     when('/status', {
-      templateUrl: 'views/status.html',
+      templateUrl: '/views/status.html',
       title: 'Status'
     }).
     when('/messages/verify', {
-      templateUrl: 'views/messages_verify.html',
+      templateUrl: '/views/messages_verify.html',
       title: 'Verify Message'
     })
     .otherwise({
-      templateUrl: 'views/404.html',
+      templateUrl: '/views/404.html',
       title: 'Error'
     });
 });

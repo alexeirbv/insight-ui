@@ -2,7 +2,7 @@
 
 angular.module('insight.address').factory('Address',
   function($resource) {
-  return $resource(window.apiPrefix + '/addr/:addrStr/?noTxList=1', {
+  return $resource('/api/addr/:addrStr/?noTxList=1', {
     addrStr: '@addStr'
   }, {
     get: {
@@ -21,4 +21,3 @@ angular.module('insight.address').factory('Address',
   });
 });
 
- 
