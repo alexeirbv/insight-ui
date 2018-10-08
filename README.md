@@ -72,6 +72,7 @@ compile***.
 
 For more details about the [Insight API](https://github.com/bitpay/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/bitpay/insight-api).
 
+## Insight API end-point for all Stamina Explorers: /api/
 ## Contribute
 
 Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/bitpay/insight-ui).
