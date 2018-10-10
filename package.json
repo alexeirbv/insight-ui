@@ -1,31 +1,28 @@
 {
-  "_from": "insight-ui",
-  "_id": "insight-ui@0.4.0",
+  "_from": "git+https://github.com/staminaexplorers/kmd-insight-ui.git",
+  "_id": "insight-ui-komodo@0.4.0",
   "_inBundle": false,
-  "_integrity": "sha1-ie2KjzNlzWjz2UqB/+WW9ORvL44=",
-  "_location": "/insight-ui",
+  "_integrity": "",
+  "_location": "/insight-ui-komodo",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "insight-ui",
-    "name": "insight-ui",
-    "escapedName": "insight-ui",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "type": "git",
+    "raw": "git+https://github.com/staminaexplorers/kmd-insight-ui.git",
+    "rawSpec": "git+https://github.com/staminaexplorers/kmd-insight-ui.git",
+    "saveSpec": "git+https://github.com/staminaexplorers/kmd-insight-ui.git",
+    "fetchSpec": "https://github.com/staminaexplorers/kmd-insight-ui.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/insight-ui/-/insight-ui-0.4.0.tgz",
-  "_shasum": "89ed8a8f3365cd68f3d94a81ffe596f4e46f2f8e",
-  "_spec": "insight-ui",
-  "_where": "/home/bitcoin/insight",
-  "bitcoreNode": "bitcore-node",
+  "_resolved": "git+https://github.com/staminaexplorers/kmd-insight-ui.git#dde33e39058df6edb7d927e6c24fdc178f67ceb8",
+  "_spec": "git+https://github.com/staminaexplorers/kmd-insight-ui.git",
+  "_where": "/home/komodo/insight",
+  "bitcoreNode": "bitcore-node-komodo",
   "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+    "url": "https://github.com/supernetorg/insight-ui-komodo/issues"
   },
   "bundleDependencies": false,
   "contributors": [
@@ -48,15 +45,17 @@
     {
       "name": "Juan Ignacio Sosa Lopez",
       "email": "bechilandia@gmail.com"
+    },
+    {
+      "name": "Jack Grigg",
+      "email": "jack@z.cash"
     }
   ],
   "dependencies": {
-    "connect": "^3.6.6",
-    "http-server": "^0.11.1",
-    "serve-static": "^1.13.2"
+    "http-server": "^0.11.1"
   },
   "deprecated": false,
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the komodo network and build your own services with it.",
   "devDependencies": {
     "bower": "~1.2.8",
     "grunt": "~0.4.2",
@@ -70,20 +69,20 @@
     "grunt-macreload": "*",
     "grunt-markdown": "~0.5.0"
   },
-  "homepage": "https://github.com/bitpay/insight-ui",
+  "homepage": "https://github.com/supernetorg/insight-ui-komodo",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
+    "komodo",
     "bitcore",
     "front-end"
   ],
   "license": "MIT",
-  "name": "insight-ui",
+  "name": "insight-ui-komodo",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bitpay/insight-ui.git"
+    "url": "git+https://git@github.com/DeckerSU/insight-ui-komodo.git"
   },
   "version": "0.4.0"
 }

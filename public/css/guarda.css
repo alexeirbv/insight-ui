@@ -145,7 +145,6 @@ a.email:hover {
   background-color: #b19fce
 }
 
-
 .navbar-default , .navbar-default {
   color: #61a5c5;
 }
@@ -153,7 +152,10 @@ a.email:hover {
 .links {
   color:  #b19fce;
 }
-
+.coin-link {
+    font-size: 13px !important;
+    margin-top: -25px;
+}
 .navbar-nav>li>a:hover, .navbar-nav>.active>a:hover {
   color: #b19fce !important;
   background-color: #5c93ad !important;

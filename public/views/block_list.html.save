@@ -47,7 +47,7 @@
             <th translate>Timestamp</th>
             <th class="text-right" translate>Transactions</th>
             <th class="text-right hidden-xs" translate>Mined by</th>
-            <th class="text-right" style="padding-right: 30px;" translate>Size</th>
+            <th class="text-right" translate>Size</th>
           </tr>
         </thead>
         <tbody>
@@ -59,7 +59,11 @@
           <td>{{b.time * 1000 | date:'medium'}}</td>
           <td class="text-right">{{b.txlength}}</td>
           <td class="text-right hidden-xs"><a href="{{b.poolInfo.url}}" title="{{b.poolInfo.poolName}}" target="_blank" data-ng-show="b.poolInfo">{{b.poolInfo.poolName}}</a></td>
-          <td class="text-right" style="padding-right: 30px;">{{b.size}}</td>
+          <td class="text-right" style="Size
+1486593	Sep 5, 2018 1:59:47 PM	268	LitecoinPool	121481
+1486592	Sep 5, 2018 1:49:11 PM	20	LTC.TOP	6055
+1486591	Sep 5, 2018 1:48:11 PM	18	LTC.TOP	6479
+1486590	Sep 5, 2018 1:47:30 PM	116	Discus Fish	">{{b.size}}</td>
         </tr>
         </tbody>
       </table>

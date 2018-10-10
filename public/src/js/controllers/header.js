@@ -7,12 +7,17 @@ angular.module('insight.system').controller('HeaderController',
     $rootScope.currency = {
       factor: 1,
       bitstamp: 0,
-      symbol: 'KMD'
+      testnet: testnet,
+      netSymbol: netSymbol,
+      symbol: netSymbol
     };
 
     $scope.menu = [{
       'title': 'Blocks',
       'link': 'blocks'
+    }, {
+      'title': 'Charts',
+      'link': 'charts'
     }, {
       'title': 'Status',
       'link': 'status'
