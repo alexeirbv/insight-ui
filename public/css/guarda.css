@@ -27,6 +27,10 @@
      margin-left: 10px !important;
    }
 
+   #insight_title {
+		 margin-left: 10px;
+	 }
+
    #block_finder {
      position: static !important;
      padding-top: 20px !important;
@@ -70,6 +74,7 @@ body {
 #insight_title {
 	font-size: 22px;
   color:  #A0D26A;
+	font-weight: bold;
 }
 
 #block_finder {
@@ -134,6 +139,12 @@ a.email:hover {
 .navbar-brand {
   font-size: 22px;
   color: #cacae4;
+}
+
+#insight_title {
+	font-size: 22px;
+	margin-right: 5px;
+	font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a {
