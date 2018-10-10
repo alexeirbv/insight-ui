@@ -1,4 +1,4 @@
-# Insight UI
+# Stamina Insight UI
 
 A Bitcoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/bitpay/insight-api).
 
@@ -15,7 +15,7 @@ npm install -g bitcore-node
 bitcore-node create mynode
 cd mynode
 bitcore-node install insight-api
-bitcore-node install insight-ui
+bitcore-node install https://github.com/StaminaDev/insight-ui/
 bitcore-node start
 ```
 
