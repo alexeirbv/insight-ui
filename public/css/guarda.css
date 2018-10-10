@@ -1,16 +1,10 @@
 #wrap {
      min-height: 1240px;
-     height: 100%;
-     margin: 0;
-     auto: -100px;
 }
  @media (max-width: 1000px) {
      #banner {
          position: static !important;
          margin-top: 30px !important;
-    }
-     #wrap {
-         margin: 0 auto -100px;
     }
      .email {
          float: none !important;
@@ -62,6 +56,7 @@
      font-size: 22px;
      color: #A0D26A;
      font-weight: bold;
+     margin-left: -
 }
  #block_finder {
      position: absolute;
@@ -115,11 +110,7 @@
      font-size: 22px;
      color: #cacae4;
 }
- #insight_title {
-     font-size: 22px;
-     margin-right: 5px;
-     font-weight: bold;
-}
+
  .navbar-default .navbar-nav>li>a {
      color: #A0D26A;
 }
@@ -149,4 +140,3 @@
      color: #69921e !important ;
      font-family: "Titillium Web", sans-serif !important;
 }
- 
