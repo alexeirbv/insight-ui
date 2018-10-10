@@ -42,6 +42,10 @@
      margin-left: 0px !important;
   }
 
+	.coin-link {
+		float: none !important;
+	}
+
 }
 
 @font-face {
@@ -151,7 +155,6 @@ a.email:hover {
   color: #A0D26A;
 }
 
-
 .navbar-form .form-control {
   background-color: #b19fce
 }
@@ -163,9 +166,10 @@ a.email:hover {
 .links {
   color:  #b19fce;
 }
+
 .coin-link {
     font-size: 13px !important;
-    margin-top: -25px;
+    margin-top: -40px;
 }
 .navbar-nav>li>a:hover, .navbar-nav>.active>a:hover {
   color: #b19fce !important;
