@@ -52,7 +52,7 @@
             <td>
               <a class="ellipsis" href="tx/{{tx.txid}}">{{tx.txid}}</a>
             </td>
-            <td style="padding-right: 30px;" class="text-right"><span class="ellipsis">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' BTC'}}</span></td>
+            <td style="padding-right: 30px;" class="text-right"><span class="ellipsis">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' KMD'}}</span></td>
           </tr>
           </tbody>
         </table>
@@ -60,7 +60,7 @@
       </div>
 
       <div class="col-xs-12 col-md-2 text-center" id="gecko_widget">
-          <coingecko-coin-price-chart-widget currency="usd" coin-id="bitcoin" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget>
+          <coingecko-coin-price-chart-widget currency="usd" coin-id="komodo" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget>
       </div> <!-- END OF COL-3 -->
     </div>
   </div>
