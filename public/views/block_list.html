@@ -1,7 +1,7 @@
 <div data-ng-include src="'views/includes/connection.html'"></div>
 <section data-ng-controller="BlocksController" data-ng-init="list()">
   <div class="row">
-   
+
 	<div data-ng-include src="'views/includes/connection.html'"></div>
 <section data-ng-controller="BlocksController" data-ng-init="list()">
   <div class="row">
@@ -10,7 +10,7 @@
       <div class="block-id">
         <div class="icon-block text-center">
           <span class="glyphicon glyphicon-list"></span>
-          <h3><span translate>Blocks</span> <br> 
+          <h3><span translate>Blocks</span> <br>
             <span translate>mined on:</span></h3>
         </div>
       </div>
@@ -33,9 +33,9 @@
       </div>
     </div>
 
-	
+
     <div class="col-xs-12 col-gray-fixed " id="banner" style="">
-       <div class="text-center"><a  class="changenow_banner" href="https://changenow.io/?from=eth&to=btc&utm_source=btcexplorer&utm_medium=link&utm_campaign=change_btc" style="">
+       <div class="text-center"><a  class="changenow_banner" href="https://changenow.io/?from=btc&to=bch&utm_source=bchblockexplorer&utm_medium=link&utm_campaign=change_bch" style="">
           <img id="changenow_img" src="img/changenow_banner.png" style=""></a></div>
     </div>
     <div class="col-xs-12 col-md-9 col-md-offset-3">
@@ -77,4 +77,3 @@
   <h2 class="text-center text-muted" data-ng-show="!blocks.length && !loading"
     translate>No blocks yet.</h2>
 </section>
-
