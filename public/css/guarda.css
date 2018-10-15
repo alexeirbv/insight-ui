@@ -160,12 +160,12 @@ a.email:hover {
 }
 
 .navbar-nav>li>a:hover, .navbar-nav>.active>a:hover {
-  color: #b19fce !important;
-  background-color: #5c93ad !important;
+  color: #fff !important;
+  background-color: #6A93D4 !important;
 }
 
 .btn-primary:hover {
-    background-color: #cab8e2 !important;
+    background-color: #6A93D4 !important;
     border: 2px solid #ccc !important;
 }
 
