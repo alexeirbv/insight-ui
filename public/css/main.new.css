@@ -1470,7 +1470,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{color:#373D42}
 .badge-info:hover{background-color:#2d6987}
 .badge-inverse{background-color:#333}
 .badge-inverse:hover{background-color:#1a1a1a}
-.status .t{color:#A0D26A}
+.status .t{}
 .status .text-danger{background:red}
 .status .text-warning{background:#ff0;color:#000}
 .btn-copy{color:#9b9b9b;display:inline-block;height:16px;width:16px;outline:0;vertical-align:sub}
