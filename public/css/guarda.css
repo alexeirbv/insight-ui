@@ -1,14 +1,12 @@
 #wrap {
-	min-height: 1240px;
-	height: 100%
-	margin: 0
-	auto: -100px
+	min-height: 1440px;
+	margin: 0	auto: -100px;
 }
 
 @media (max-width: 1000px) {
  	#banner {
 	 position: static !important ;
-   margin-top: 30px !important ;
+   margin-top: 20px !important ;
  	};
 
  	#wrap {
@@ -38,6 +36,9 @@
      margin-left: 0px !important;
   }
 
+	.coin-link {
+ 		float: none !important;
+	}
 }
 
 @font-face {
@@ -50,7 +51,7 @@ body {
 }
 
 /* CoinGecko */
-.cg-container canvas[data-v-463967ab] {
+.cg-style {
   background-color: #E9E7E7 !important;
 }
 
@@ -64,7 +65,7 @@ body {
 
 .navbar-default {
   color: #2E4C84;
-  background: #2E6884 !important;
+  background: #104BA9 !important;
 }
 
 #insight_title {
@@ -117,17 +118,21 @@ body {
 	font-style: normal;
 	font-size: 13px ;
 	margin-top: -46px ;
-	color: #b19fce;
+	color: #fff;
 	text-decoration: none;
 }
 
 a.email:hover {
-  color: #A0D26A;
+  color: #466FD5;
   text-decoration: none;
 }
 
+#footer .links a:hover {
+  color: #466FD5;
+  text-decoration: none;
+}
 .status {
-  background-color: #8863BB;
+  background-color: #346464;
   color: #A0D26A;
 }
 
@@ -167,4 +172,14 @@ a.email:hover {
 ::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color:  #69921e !important ;
     font-family: "Titillium Web", sans-serif !important;
+}
+
+.coin-link {
+    font-size: 13px !important;
+    margin-top: -40px;
+}
+
+.coin-link:hover {
+  text-decoration: none;
+  color: #466FD5 !important;
 }

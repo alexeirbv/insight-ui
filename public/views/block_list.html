@@ -1,16 +1,11 @@
 <div data-ng-include src="'views/includes/connection.html'"></div>
 <section data-ng-controller="BlocksController" data-ng-init="list()">
   <div class="row">
-   
-	<div data-ng-include src="'views/includes/connection.html'"></div>
-<section data-ng-controller="BlocksController" data-ng-init="list()">
-  <div class="row">
-
-    <div class="col-xs-12 col-gray col-gray-fixed" id="block_finder" style="">
+    <div class="col-xs-12 col-gray col-gray-fixed" id="block_finder">
       <div class="block-id">
         <div class="icon-block text-center">
           <span class="glyphicon glyphicon-list"></span>
-          <h3><span translate>Blocks</span> <br> 
+          <h3><span translate>Blocks</span> <br>
             <span translate>mined on:</span></h3>
         </div>
       </div>
@@ -33,11 +28,14 @@
       </div>
     </div>
 
-	
     <div class="col-xs-12 col-gray-fixed " id="banner" style="">
-       <div class="text-center"><a  class="changenow_banner" href="https://changenow.io/?from=eth&to=btc&utm_source=btcexplorer&utm_medium=link&utm_campaign=change_btc" style="">
-          <img id="changenow_img" src="img/changenow_banner.png" style=""></a></div>
-    </div>
+          <div class="text-center">
+            <a  class="changenow_banner" href="https://changenow.io/?from=btc&to=vtc&utm_source=digibyteblockexplorer&utm_medium=link&utm_campaign=change_vtc">
+              <img id="changenow_img" src="img/changenow_banner.png">
+            </a>
+          </div>
+   </div>
+
     <div class="col-xs-12 col-md-9 col-md-offset-3">
       <div class="page-header">
         <h1>
@@ -52,7 +50,7 @@
             <th translate>Timestamp</th>
             <th class="text-right" translate>Transactions</th>
             <th class="text-right hidden-xs" translate>Mined by</th>
-            <th class="text-right" style="padding-right:30px;"  translate>Size</th>
+            <th class="text-right" translate>Size</th>
           </tr>
         </thead>
         <tbody>
@@ -64,7 +62,7 @@
           <td>{{b.time * 1000 | date:'medium'}}</td>
           <td class="text-right">{{b.txlength}}</td>
           <td class="text-right hidden-xs"><a href="{{b.poolInfo.url}}" title="{{b.poolInfo.poolName}}" target="_blank" data-ng-show="b.poolInfo">{{b.poolInfo.poolName}}</a></td>
-          <td class="text-right" style="padding-right:30px;" >{{b.size}}</td>
+          <td class="text-right">{{b.size}}</td>
         </tr>
         </tbody>
       </table>
@@ -77,4 +75,3 @@
   <h2 class="text-center text-muted" data-ng-show="!blocks.length && !loading"
     translate>No blocks yet.</h2>
 </section>
-
