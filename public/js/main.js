@@ -369,6 +369,9 @@ angular.module('insight.system').controller('HeaderController',
     }, {
       'title': 'Status',
       'link': 'status'
+    }, {
+      'title': 'Status',
+      'link': 'api'
     }];
 
     $scope.openScannerModal = function() {
@@ -1333,6 +1336,10 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/messages/verify', {
       templateUrl: 'views/messages_verify.html',
+      title: 'Verify Message'
+    }).
+    when('/api', {
+      templateUrl: 'views/api.html',
       title: 'Verify Message'
     })
     .otherwise({

@@ -13,14 +13,14 @@
 html,
 body {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #6C9032 !important;
+  background-color: #2E6884 !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -110,10 +110,10 @@ margin-left: 0;
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
-  background-color: #F0F7E2;
+  background-color: #B6B6C3;
 }
 .navbar { min-height: 64px; }
-.navbar-default .navbar-toggle { 
+.navbar-default .navbar-toggle {
   border-color: #fff;
   margin-top: 15px;
 }
@@ -129,7 +129,7 @@ margin-left: 0;
 
 .navbar-default .navbar-nav>li>a {
   color: #F4FBE8;
-  font-family: 'Ubuntu', sans-serif;
+
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -156,7 +156,7 @@ margin-left: 0;
 }
 
 .insight {
-  font-family: 'Ubuntu', sans-serif;
+
   font-size: 34px;
   font-style: italic;
   font-weight: 700;
@@ -209,14 +209,14 @@ margin-left: 0;
 
 #search::-webkit-input-placeholder {
   color: #BCDF7E;
-  font-family: 'Ubuntu', sans-serif;
+
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
   color: #BCDF7E;
-  font-family: 'Ubuntu', sans-serif;
+
   font-weight: 100;
 }
 
@@ -422,7 +422,7 @@ margin-left: 0;
 }
 
 #footer .links a {
-  color: #ddd;
+  color: #b19fce;
 }
 
 #footer .links a.selected {
@@ -432,7 +432,7 @@ margin-left: 0;
 
 #footer .links a:hover {
   text-decoration: none;
-  color: #fffffe;
+  color: #A0D26A;
 }
 
 .line-bot {
@@ -525,7 +525,7 @@ margin-left: 0;
 .badge-inverse:hover { background-color: #1a1a1a; }
 
 .status .t {
-  color: white;
+  color: #A0D26A;
 }
 
 .status .text-danger { background: red; }
@@ -576,7 +576,7 @@ margin-left: 0;
   text-align: center;
 }
 
-.tx-id span { 
+.tx-id span {
   font-size: 40px;
   margin: 30px 0;
 }
@@ -724,7 +724,7 @@ a.v_highlight_more {
 @media (max-width: 991px) {
   .status {
     display: none;
-  } 
+  }
   .navbar-form {
     width: auto;
   }
@@ -775,7 +775,7 @@ a.v_highlight_more {
   }
   .status {
     display: none;
-  } 
+  }
   #wrap>.container {
     padding: 50px 15px 0;
   }
@@ -857,3 +857,182 @@ a.v_highlight_more {
   }
 }
 
+#wrap {
+	min-height: 1500px;
+}
+
+@media (max-width: 1200px) and (min-width: 991px ) {
+	.margin_header {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 1000px) {
+ 	#banner {
+	 position: static !important ;
+   margin-top: 30px !important ;
+ 	}
+
+ 	#wrap {
+ 	    margin: 0 auto -100px;
+  }
+
+  .email {
+       float: none !important;
+  }
+
+  #footer {
+      height: 125px !important;
+   }
+
+  #footer_container {
+     margin-left: 10px !important;
+   }
+
+   #block_finder {
+     position: static !important;
+     padding-top: 20px !important;
+     margin-top: 15px !important;
+   }
+
+   #gecko_widget {
+     margin-top: 0px !important;
+     margin-left: 0px !important;
+  }
+
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: URL('../fonts/12220.ttf') format('ttf');
+}
+
+body {
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+/* CoinGecko */
+.cg-container canvas[data-v-463967ab] {
+  background-color: #E9E7E7 !important;
+}
+
+.navbar {
+  color: #2E4C84 !important;
+}
+
+.navbar-brand {
+  color: #A0D26A !important;
+}
+
+.navbar-default {
+  color: #2E4C84;
+  background: #2E6884 !important;
+}
+
+#insight_title {
+	font-size: 22px;
+  color:  #A0D26A;
+}
+
+#block_finder {
+  position: absolute;
+}
+
+#footer {
+  height: 75px;
+  color: #A0D26A;
+}
+
+#links_container {
+	float: none !important;
+}
+
+.changenow_banner {
+	display: block;
+	margin-left: -15px;
+	margin-top: 5px;
+}
+
+#changenow_img {
+	max-width: 100%;
+}
+
+#gecko_widget {
+    margin-top: 104px;
+    margin-left: -10px;
+}
+
+#banner {
+	border:none;
+	position: absolute;
+	margin-top: 560px;
+	margin-left:5px;
+}
+
+.guarda_banner {
+	margin-top: 18px;
+	margin-left: -8px;
+}
+
+.email {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 13px ;
+	margin-top: -46px ;
+	color: #b19fce;
+	text-decoration: none;
+}
+
+a.email:hover {
+  color: #A0D26A;
+  text-decoration: none;
+}
+
+.status {
+  background-color: #8863BB;
+  color: #A0D26A;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  color: #cacae4;
+	font-style: normal
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #A0D26A;
+}
+
+
+.navbar-form .form-control {
+  background-color: #b19fce
+}
+
+
+.navbar-default , .navbar-default {
+  color: #61a5c5;
+}
+
+.links {
+  color:  #b19fce;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>.active>a:hover {
+  color: #b19fce !important;
+  background-color: #5c93ad !important;
+}
+
+.btn-primary:hover {
+    background-color: #cab8e2 !important;
+    border: 2px solid #ccc !important;
+}
+
+#footer p {
+  text-decoration: none;
+  color: #b19fce;
+}
+
+::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:  #69921e !important ;
+    font-family: "Titillium Web", sans-serif !important;
+}
