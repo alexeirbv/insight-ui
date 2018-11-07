@@ -873,6 +873,10 @@ a.v_highlight_more {
    margin-top: 30px !important ;
  	}
 
+	.margin_header {
+		margin-top: 40px;
+	}
+
  	#wrap {
  	    margin: 0 auto -100px;
   }
