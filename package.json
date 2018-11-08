@@ -1,9 +1,9 @@
 {
-  "_from": "insight-ui",
-  "_id": "insight-ui@0.4.0",
+  "_from": "insight-lite-ui",
+  "_id": "insight--lite-ui@0.4.0",
   "_inBundle": false,
   "_integrity": "sha1-ie2KjzNlzWjz2UqB/+WW9ORvL44=",
-  "_location": "/insight-ui",
+  "_location": "/insight-lite-ui",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
@@ -80,10 +80,10 @@
     "front-end"
   ],
   "license": "MIT",
-  "name": "insight-ui",
+  "name": "insight-lite-ui",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bitpay/insight-ui.git"
+    "url": "git://github.com/StaminaDev/insight-ui#ltc-new-ui"
   },
   "version": "0.4.0"
 }
