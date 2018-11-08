@@ -861,11 +861,8 @@ a.v_highlight_more {
 	min-height: 1500px;
 	width: 100%;
 }
-
-@media (max-width: 1200px) and (min-width: 991px ) {
-	.margin_header {
-		margin-top: 40px;
-	}
+.margin_header {
+  margin-top: 40px;
 }
 
 @media (max-width: 1000px) {
