@@ -6,14 +6,14 @@
 html,
 body {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #6C9032 !important;
+  background-color: #2E6884 !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -103,10 +103,10 @@ margin-left: 0;
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
-  background-color: #F0F7E2;
+  background-color: #B6B6C3;
 }
 .navbar { min-height: 64px; }
-.navbar-default .navbar-toggle { 
+.navbar-default .navbar-toggle {
   border-color: #fff;
   margin-top: 15px;
 }
@@ -115,26 +115,25 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #ccded5;
+  background-color: #8DC429;
   margin: 0;
   border: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #346464;
-  font-family: 'Ubuntu', sans-serif;
+  color: #F4FBE8;
+
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #ccded5;
-  color: #346464;
+  background-color: #6C9032;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
   background-color: #fff;
-  color: #797979;
 }
 
 .navbar-form .form-group {
@@ -150,7 +149,7 @@ margin-left: 0;
 }
 
 .insight {
-  font-family: 'Ubuntu', sans-serif;
+
   font-size: 34px;
   font-style: italic;
   font-weight: 700;
@@ -163,19 +162,11 @@ margin-left: 0;
 
 .navbar-default .navbar-brand {
   color: #FFFFFF;
-  padding: 9px 5px 0 5px;
-}
-
-  .navbar-brand {
-    float: left;
-    padding: 15px;
-    font-size: 18px;
-    line-height: 20px;
-    height: 55px;
+  padding: 20px 15px;
 }
 
 .navbar-form .form-control {
-  background-color: #bdc7c2;
+  background-color: #7CAD23;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -190,7 +181,7 @@ margin-left: 0;
   padding-bottom: 22px;
 }
 
-#search-form { color: #525252; }
+#search-form { color: #fff; }
 
 #search.loading {
   background-image: url('../img/loading.gif');
@@ -210,22 +201,22 @@ margin-left: 0;
 #search { color: #fff; }
 
 #search::-webkit-input-placeholder {
-  color: #a7a7a7;
-  font-family: 'Ubuntu', sans-serif;
+  color: #BCDF7E;
+
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
-  color: #a7a7a7;
-  font-family: 'Ubuntu', sans-serif;
+  color: #BCDF7E;
+
   font-weight: 100;
 }
 
 .status {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #346464;
+  background-color: #597338;
   border-radius: 3px;
   margin: 15px 0;
   padding: 8px 10px;
@@ -424,7 +415,7 @@ margin-left: 0;
 }
 
 #footer .links a {
-  color: #ddd;
+  color: #b19fce;
 }
 
 #footer .links a.selected {
@@ -434,7 +425,7 @@ margin-left: 0;
 
 #footer .links a:hover {
   text-decoration: none;
-  color: #fffffe;
+  color: #A0D26A;
 }
 
 .line-bot {
@@ -527,7 +518,7 @@ margin-left: 0;
 .badge-inverse:hover { background-color: #1a1a1a; }
 
 .status .t {
-  color: white;
+  color: #A0D26A;
 }
 
 .status .text-danger { background: red; }
@@ -578,7 +569,7 @@ margin-left: 0;
   text-align: center;
 }
 
-.tx-id span { 
+.tx-id span {
   font-size: 40px;
   margin: 30px 0;
 }
@@ -619,12 +610,13 @@ margin-left: 0;
   background-repeat: no-repeat;
   background-position: center center;
   display: inline-block;
-  height: 80px;
+  float: left;
+  height: 45px;
 }
-#powered a.supernet {
-  background-image: url('../img/supernet.png');
+#powered a.bitcore {
+  background-image: url('../img/logo.svg');
   background-size: 80px;
-  width: 100%;
+  width: 30%;
 }
 #powered a.nodejs {
   background-image: url('../img/nodejs.png');
@@ -725,7 +717,7 @@ a.v_highlight_more {
 @media (max-width: 991px) {
   .status {
     display: none;
-  } 
+  }
   .navbar-form {
     width: auto;
   }
@@ -776,7 +768,7 @@ a.v_highlight_more {
   }
   .status {
     display: none;
-  } 
+  }
   #wrap>.container {
     padding: 50px 15px 0;
   }
@@ -793,9 +785,8 @@ a.v_highlight_more {
     font-size: 20px;
   }
   .navbar-default .navbar-brand {
-    padding: 5px;
+    padding: 15px;
   }
-
   .insight {
     font-size: 26px;
   }
@@ -857,22 +848,4 @@ a.v_highlight_more {
   .navbar-form .form-control {
     width: 350px;
   }
-}
-
-/* Komodo Explorer Misc CSS
--------------------------------------------------- */
-#brandImg {
-  height: 45px;
-}
-
-#brandImgLg {
-  width: 100%;
-}
-
-#intro {
-  font-size:20px;
-}
-
-.subIntro {
-  font-size: 16px
 }

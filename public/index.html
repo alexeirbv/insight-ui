@@ -1,20 +1,28 @@
 <!doctype html>
 <html lang="en" data-ng-app="insight" data-ng-csp>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128905123-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128905123-1');
+  </script>
   <base href="/" />
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="fragment" content="!">
-	<title data-ng-if="currency.testnet" data-ng-bind="$root.title + $root.titleDetail + ' | Testnet Insight'">Komodo Explorer</title>
-	<title data-ng-if="!currency.testnet" data-ng-bind="$root.title + $root.titleDetail + ' | Insight'">Komodo Explorer</title>
-	<meta name="keywords" content="komodo, guarda, changenow, transactions, blocks, address, block chain, best block, mining difficulty, hash serialized">
+	<tilte>KMD Explorer</title>
+	<meta name="keywords" content="block, transaction, hash, address, nodes, status, height, mining, age, size, cryptocurrency, sync, chart, explore, estimation, balance, checking, komodo, kmd">
 	<meta data-ng-if="currency.testnet" name="description" content="Komodo Blockexplorer. Check your KMD transactions and blocks.">
 	<meta data-ng-if="!currency.testnet" name="description" content="Komodo Blockexplorer. Check your KMD transactions and blocks.">
 	<link rel="icon"  href="./img/icons/icon.png" type="image/png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic">
-	<link rel="stylesheet" href="css/main.min.css">
-  <link rel="stylesheet" href="css/guarda.css?v=2.6">
+	<link rel="stylesheet" href="css/main.min.css?v=1">
+
 </head>
 <body ng-cloak class="ng-cloak">
   <div>
