@@ -1,30 +1,23 @@
 <!doctype html>
 <html lang="en" data-ng-app="insight" data-ng-csp>
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128873116-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-128873116-1');
-  </script>
-  
   <base href="/" />
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="fragment" content="!">
-	<title>BTC Explorer</title>
-	<meta name="keywords" content="block, transaction, hash, address, nodes, status, height, mining, age, size, cryptocurrency, sync, chart, explore, estimation, balance, checking, bitcoin">
-	<meta name="description" content="Bitcoin Blockexplorer. Check your BTC transactions and blocks.">
+	<title data-ng-bind="$root.title + $root.titleDetail + ' | Insight'">ZEC Explorer</title>
+	<meta name="keywords" content="zcash, zec, explorer, transactions, guarda, changenow,  blocks, address, block chain, best block, mining difficulty, hash serialized, changenow, guarda">
+	<meta name="description" content="Zcash Blockexplorer. Check your ZEC transactions and blocks.">
 	<link rel="icon" type="image/png" href="img/icons/favicon.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic">
-	<link rel="stylesheet" href="css/main.min.css?v=4">
+	<link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/guarda.css?v=1.2.9">
+  <style>
+
+</style>
 
 </head>
-
 <body ng-cloak class="ng-cloak">
   <div>
     <script type="text/ng-template" id="scannerModal.html">
@@ -62,7 +55,7 @@
       <div class="links m20t pull-left" style="font-size: 13px;" id="links_container">
        <span class="languages" ng-show="availableLanguages.0">
           [
-          <a href="http://bitcoinblockexplorers.com">bitcoinblockexplorers.com</a>
+          <a href="https://zecblockexplorer.com ">zecblockexplorer.com </a>
           ]
         </span>
         &nbsp;
@@ -71,10 +64,11 @@
         <span> &middot; </span>
         <a href="tx/send" translate>broadcast transaction</a>
         ]
-        <p>Donate BTC: 1KNBh7MdTjQVzfwp1bPwrmYuWGaBKSHwpJ</p>
+        <p>Donate ZEC: t1YChM9S6K7eGWFM5NgzAKLq4b1BJtE2LNE</p>
       </div>
-      <a class="m10v pull-right email" target="_blank" href="mailto:btcblockexplorer@gmail.com">btcblockexplorer@gmail.com </small></a>
-    </div>
+      <a class="m10v pull-right email" target="_blank" href="mailto:zecblockexplorer@gmail.com ">zecblockexplorer@gmail.com</small></a><br>
+      <a class="pull-right links coin-link" href="https://coincodex.com/crypto/zcash/">https://coincodex.com/crypto/zcash/</a>
+</div>
 </div>
 
 
@@ -84,5 +78,5 @@
 	<script src="js/angularjs-all.min.js"></script>
 	<script src="js/main.min.js"></script>
   <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-	</body>
+</body>
 </html>

@@ -1,8 +1,7 @@
-<div class="margin_header"></div>
 <div class="alert alert-danger" data-ng-show="flashMessage">
   {{$root.flashMessage}}
 </div>
-
+<div data-ng-include src="'views/includes/connection.html'"></div>
 <section data-ng-controller="IndexController" data-ng-init="index()" id="block_table">
   <div class="container">
     <div id="home" class="row">
@@ -18,7 +17,7 @@
               <th translate>Age</th>
               <th class="text-right"><span class="ellipsis" translate>Transactions</span></th>
               <th class="text-right hidden-xs"><span class="ellipsis" translate>Mined by</span></th>
-              <th class="text-right" style="padding-right:30px;"  translate>Size</th>
+              <th class="text-right" style="padding-right: 30px;" translate>Size</th>
             </tr>
           </thead>
           <tbody>
@@ -30,7 +29,7 @@
             <td><span class="ellipsis">{{humanSince(b.time)}}</span></td>
             <td class="text-right">{{b.txlength}}</td>
             <td class="text-right hidden-xs"><a href="{{b.poolInfo.url}}" title="{{b.poolInfo.poolName}}" target="_blank" data-ng-show="b.poolInfo">{{b.poolInfo.poolName}}</a></td>
-            <td class="text-right" style="padding-right:30px;"  >{{b.size}}</td>
+            <td class="text-right" style="padding-right: 30px;">{{b.size}}</td>
           </tr>
           </tbody>
         </table>
@@ -44,7 +43,7 @@
           <thead>
             <tr>
               <th>Hash</th>
-              <th class="text-right" style="padding-right: 30px;" translate>Value Out</th>
+              <th class="text-right" translate>Value Out</th>
             </tr>
           </thead>
           <tbody>
@@ -53,7 +52,7 @@
             <td>
               <a class="ellipsis" href="tx/{{tx.txid}}">{{tx.txid}}</a>
             </td>
-            <td style="padding-right: 30px;" class="text-right"><span class="ellipsis">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' BTC'}}</span></td>
+            <td class="text-right"><span class="ellipsis">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' ZEC'}}</span></td>
           </tr>
           </tbody>
         </table>
@@ -61,7 +60,8 @@
       </div>
 
       <div class="col-xs-12 col-md-2 text-center" id="gecko_widget">
-          <coingecko-coin-price-chart-widget currency="usd" coin-id="bitcoin" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget>
+              <coingecko-coin-price-chart-widget currency="usd" coin-id="zcash" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget>
+
       </div> <!-- END OF COL-3 -->
     </div>
   </div>
