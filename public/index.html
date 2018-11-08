@@ -1,22 +1,27 @@
 <!doctype html>
 <html lang="en" data-ng-app="insight" data-ng-csp>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125110936-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-125110936-2');
+  </script>
+
   <base href="/" />
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="fragment" content="!">
 	<title data-ng-bind="$root.title + $root.titleDetail + ' | Insight'">ZEC Explorer</title>
-	<meta name="keywords" content="zcash, zec, explorer, transactions, guarda, changenow,  blocks, address, block chain, best block, mining difficulty, hash serialized, changenow, guarda">
+	<meta name="keywords" content="block, transaction, hash, address, nodes, status, height, mining, age, size, cryptocurrency, sync, chart, explore, estimation, balance, checking, zcash, zec">
 	<meta name="description" content="Zcash Blockexplorer. Check your ZEC transactions and blocks.">
 	<link rel="icon" type="image/png" href="img/icons/favicon.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic">
 	<link rel="stylesheet" href="css/main.min.css">
-  <link rel="stylesheet" href="css/guarda.css?v=1.2.9">
-  <style>
-
-</style>
-
 </head>
 <body ng-cloak class="ng-cloak">
   <div>

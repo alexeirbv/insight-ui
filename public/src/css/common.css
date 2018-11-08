@@ -6,14 +6,14 @@
 html,
 body {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #6C9032 !important;
+  background-color: #2E6884 !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -103,10 +103,10 @@ margin-left: 0;
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
-  background-color: #F0F7E2;
+  background-color: #B6B6C3;
 }
 .navbar { min-height: 64px; }
-.navbar-default .navbar-toggle { 
+.navbar-default .navbar-toggle {
   border-color: #fff;
   margin-top: 15px;
 }
@@ -122,7 +122,7 @@ margin-left: 0;
 
 .navbar-default .navbar-nav>li>a {
   color: #F4FBE8;
-  font-family: 'Ubuntu', sans-serif;
+
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -149,7 +149,7 @@ margin-left: 0;
 }
 
 .insight {
-  font-family: 'Ubuntu', sans-serif;
+
   font-size: 34px;
   font-style: italic;
   font-weight: 700;
@@ -202,14 +202,14 @@ margin-left: 0;
 
 #search::-webkit-input-placeholder {
   color: #BCDF7E;
-  font-family: 'Ubuntu', sans-serif;
+
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
   color: #BCDF7E;
-  font-family: 'Ubuntu', sans-serif;
+
   font-weight: 100;
 }
 
@@ -415,7 +415,7 @@ margin-left: 0;
 }
 
 #footer .links a {
-  color: #ddd;
+  color: #b19fce;
 }
 
 #footer .links a.selected {
@@ -425,7 +425,7 @@ margin-left: 0;
 
 #footer .links a:hover {
   text-decoration: none;
-  color: #fffffe;
+  color: #A0D26A;
 }
 
 .line-bot {
@@ -518,7 +518,7 @@ margin-left: 0;
 .badge-inverse:hover { background-color: #1a1a1a; }
 
 .status .t {
-  color: white;
+  color: #A0D26A;
 }
 
 .status .text-danger { background: red; }
@@ -569,7 +569,7 @@ margin-left: 0;
   text-align: center;
 }
 
-.tx-id span { 
+.tx-id span {
   font-size: 40px;
   margin: 30px 0;
 }
@@ -717,7 +717,7 @@ a.v_highlight_more {
 @media (max-width: 991px) {
   .status {
     display: none;
-  } 
+  }
   .navbar-form {
     width: auto;
   }
@@ -768,7 +768,7 @@ a.v_highlight_more {
   }
   .status {
     display: none;
-  } 
+  }
   #wrap>.container {
     padding: 50px 15px 0;
   }
@@ -849,4 +849,3 @@ a.v_highlight_more {
     width: 350px;
   }
 }
-
