@@ -371,7 +371,7 @@ angular.module('insight.system').controller('HeaderController',
       'link': 'status'
     }, {
       'title': 'API',
-      'link': 'api'
+      'link': 'api-info'
     }];
 
     $scope.openScannerModal = function() {
@@ -1338,7 +1338,7 @@ angular.module('insight').config(function($routeProvider) {
       templateUrl: 'views/messages_verify.html',
       title: 'Verify Message'
     }).
-    when('/api', {
+    when('/api-info', {
       templateUrl: 'views/api.html',
       title: 'API'
     })

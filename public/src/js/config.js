@@ -43,7 +43,7 @@ angular.module('insight').config(function($routeProvider) {
       templateUrl: 'views/messages_verify.html',
       title: 'Verify Message'
     }).
-    when('/api', {
+    when('/api-info', {
       templateUrl: 'views/api.html',
       title: 'API'
     })
