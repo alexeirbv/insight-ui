@@ -2,8 +2,9 @@
 	min-height: 1500px;
 	width: 100%;
 }
+
 .margin_header {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 
 @media (max-width: 1000px) {
