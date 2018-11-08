@@ -1,5 +1,6 @@
 #wrap {
 	min-height: 1500px;
+	width: 100%;
 }
 
 @media (max-width: 1200px) and (min-width: 991px ) {
@@ -55,7 +56,9 @@
 body {
   font-family: "Titillium Web", sans-serif !important;
 }
-
+.word-wrap {
+	word-wrap: break-word;
+}
 /* CoinGecko */
 .cg-container canvas[data-v-463967ab] {
   background-color: #E9E7E7 !important;
