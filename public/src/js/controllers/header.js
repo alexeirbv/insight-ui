@@ -16,6 +16,9 @@ angular.module('insight.system').controller('HeaderController',
     }, {
       'title': 'Status',
       'link': 'status'
+    }, {
+      'title': 'API',
+      'link': 'api-info'
     }];
 
     $scope.openScannerModal = function() {

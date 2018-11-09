@@ -1,15 +1,28 @@
 #wrap {
-	min-height: 1240px;
-	height: 100%
-	margin: 0
-	auto: -100px
+	min-height: 1500px;
+	width: 100%;
 }
+
+@media (max-width: 1200px) and (min-width: 991px ) {
+	.margin_header {
+		margin-top: 40px;
+	}
+}
+
 
 @media (max-width: 1000px) {
  	#banner {
 	 position: static !important ;
    margin-top: 30px !important ;
- 	};
+ 	}
+
+	.margin_header {
+		margin-top: 40px;
+	}
+
+	.coin-link {
+		 float: none !important;
+	}
 
  	#wrap {
  	    margin: 0 auto -100px;
@@ -23,7 +36,7 @@
       height: 125px !important;
    }
 
-   #footer_container {
+  #footer_container {
      margin-left: 10px !important;
    }
 
@@ -38,6 +51,8 @@
      margin-left: 0px !important;
   }
 
+
+
 }
 
 @font-face {
@@ -47,6 +62,19 @@
 
 body {
   font-family: "Titillium Web", sans-serif !important;
+}
+.word-wrap {
+	word-wrap: break-word;
+}
+
+.coin-link {
+    font-size: 13px !important;
+    margin-top: -40px;
+		color: #b19fce !important;
+}
+.coin-link:hover {
+  text-decoration: none;
+  color: #A0D26A !important;
 }
 
 /* CoinGecko */
@@ -96,8 +124,8 @@ body {
 }
 
 #gecko_widget {
-  margin-top: 104px;
-  margin-left: -10px;
+    margin-top: 104px;
+    margin-left: -10px;
 }
 
 #banner {
@@ -134,6 +162,8 @@ a.email:hover {
 .navbar-brand {
   font-size: 22px;
   color: #cacae4;
+	font-style: normal;
+
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -160,11 +190,16 @@ a.email:hover {
 }
 
 .btn-primary:hover {
-	background-color: #cab8e2 !important;
-  border: 2px solid #ccc !important;
+    background-color: #cab8e2 !important;
+    border: 2px solid #ccc !important;
+}
+
+#footer p {
+  text-decoration: none;
+  color: #b19fce;
 }
 
 ::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color:  #69921e !important ;
-  font-family: "Titillium Web", sans-serif !important;
+    color:  #69921e !important ;
+    font-family: "Titillium Web", sans-serif !important;
 }
