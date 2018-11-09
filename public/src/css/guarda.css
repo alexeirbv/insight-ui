@@ -1,13 +1,21 @@
 #wrap {
-	min-height: 1440px;
-	margin: 0	auto: -100px;
+	min-height: 1500px;
+	width: 100%;
+}
+
+.margin_header {
+  margin-top: 40px !important;
 }
 
 @media (max-width: 1000px) {
  	#banner {
 	 position: static !important ;
-   margin-top: 20px !important ;
- 	};
+   margin-top: 30px !important ;
+ 	}
+
+	.margin_header {
+		margin-top: 40px;
+	}
 
  	#wrap {
  	    margin: 0 auto -100px;
@@ -21,7 +29,7 @@
       height: 125px !important;
    }
 
-   #footer_container {
+  #footer_container {
      margin-left: 10px !important;
    }
 
@@ -36,9 +44,6 @@
      margin-left: 0px !important;
   }
 
-	.coin-link {
- 		float: none !important;
-	}
 }
 
 @font-face {
@@ -49,23 +54,25 @@
 body {
   font-family: "Titillium Web", sans-serif !important;
 }
-
+.word-wrap {
+	word-wrap: break-word;
+}
 /* CoinGecko */
-.cg-style {
+.cg-container canvas[data-v-463967ab] {
   background-color: #E9E7E7 !important;
 }
 
 .navbar {
-  color: #fff !important;
+  color: #2E4C84 !important;
 }
 
 .navbar-brand {
-  color: #fff !important;
+  color: #A0D26A !important;
 }
 
 .navbar-default {
   color: #2E4C84;
-  background: #104BA9 !important;
+  background: #2E6884 !important;
 }
 
 #insight_title {
@@ -118,36 +125,33 @@ body {
 	font-style: normal;
 	font-size: 13px ;
 	margin-top: -46px ;
-	color: #fff;
+	color: #b19fce;
 	text-decoration: none;
 }
 
 a.email:hover {
-  color: #466FD5;
+  color: #A0D26A;
   text-decoration: none;
 }
 
-#footer .links a:hover {
-  color: #466FD5;
-  text-decoration: none;
-}
 .status {
-  background-color: #6A93D4;
-  color: #fff;
+  background-color: #8863BB;
+  color: #A0D26A;
 }
 
 .navbar-brand {
   font-size: 22px;
-  color: #fff;
+  color: #cacae4;
+	font-style: normal
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #fff;
+  color: #A0D26A;
 }
 
 
 .navbar-form .form-control {
-  background-color: #6A93D4
+  background-color: #b19fce
 }
 
 
@@ -158,28 +162,26 @@ a.email:hover {
 .links {
   color:  #b19fce;
 }
-
+.coin-link:hover {
+  color: #A0D26A;
+  text-decoration: none;
+}
 .navbar-nav>li>a:hover, .navbar-nav>.active>a:hover {
-  color: #466FD5 !important;
-  background-color: #6A93D4 !important;
+  color: #b19fce !important;
+  background-color: #5c93ad !important;
 }
 
 .btn-primary:hover {
-    background-color: #6A93D4 !important;
+    background-color: #cab8e2 !important;
     border: 2px solid #ccc !important;
 }
 
-::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:  #fff !important ;
-    font-family: "Titillium Web", sans-serif !important;
-}
-
-.coin-link {
-    font-size: 13px !important;
-    margin-top: -40px;
-}
-
-.coin-link:hover {
+#footer p {
   text-decoration: none;
-  color: #466FD5 !important;
+  color: #b19fce;
+}
+
+::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:  #69921e !important ;
+    font-family: "Titillium Web", sans-serif !important;
 }
