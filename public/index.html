@@ -132,6 +132,12 @@
   function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
   }
+
+  angular.element(document).ready(function () {
+
+  getRandomBundle();
+
+  });
   </script>
 
   <base href="/" />
@@ -148,7 +154,7 @@
 
 </head>
 
-<body ng-cloak class="ng-cloak" onload="getRandomBundle();">
+<body ng-cloak class="ng-cloak" onload="">
   <div>
     <script type="text/ng-template" id="scannerModal.html">
       <div class="modal-header">
