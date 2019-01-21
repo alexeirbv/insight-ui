@@ -133,11 +133,7 @@
     return Math.floor(Math.random() * (max - min)) + min;
   }
 
-  angular.element(document).ready(function () {
 
-  getRandomBundle();
-
-  });
   </script>
 
   <base href="/" />
@@ -213,5 +209,12 @@
   <script src="js/angularjs-all.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+  <script>
+    angular.element(document).ready(function () {
+
+      getRandomBundle();
+      
+    });
+  </script>
 </body>
 </html>
