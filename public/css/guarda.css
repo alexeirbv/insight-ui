@@ -10,6 +10,7 @@
     }
     .centrify {
         text-align: center;
+        padding-bottom: 50px;
     }
     #wrap {
         margin: 0 auto -100px;
@@ -99,8 +100,6 @@ body {
 #banner {
     border: none;
     position: absolute;
-    /* margin-top: 560px;
-    margin-left: 5px; */
 }
 
 .guarda_banner {
